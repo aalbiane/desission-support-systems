@@ -1,0 +1,190 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 7,
+    "datatypes": "",
+    "parsetiming": 0.374,
+    "parsetimedout": false,
+    "id": "T8vvzofbraU=6:eJy9jsEKwjAQRKP4Ix486sE/kFwKiq0W70ntxgaSbEk2Qv/eJgXxmJOXgd3Z2XnbDu9qxRgLm1kqNL1ap2k/C5fmGY0keDhNQSTlaC26drIdmiA4ujd4yvYSO/zGGukDpCMCR+K7FiczDvIWpSNNU+69ooOFYlfyIBcWEbYjQF+ri34N9HfCYwnhWRu0QOBDA77C6D85F4iW",
+    "kernelId": "259",
+    "processId": 503159,
+    "version": "2.6",
+    "inputstring": "speed of light in km/h",
+    "sbsallowed": false,
+    "parentId": "e6bad237-61c6-4923-976b-e70fec86996e",
+    "requestId": "e6bad237-61c6-4923-976b-e70fec86996e",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "convert 1 c (speed of light) to kilometers per hour"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "1.079 × 10^9 km/h (kilometers per hour)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "Result",
+        "position": 2.2,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Additional conversions",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "6.706 × 10^8 mph (miles per hour)"
+          },
+          {
+            "title": "",
+            "plaintext": "299792 km/s (kilometers per second)"
+          },
+          {
+            "title": "",
+            "plaintext": "2.998 × 10^8 m/s (meters per second)"
+          },
+          {
+            "title": "",
+            "plaintext": "186282 mi/s (miles per second)"
+          }
+        ],
+        "numsubpods": 4,
+        "error": false,
+        "scanner": "Unit",
+        "id": "AdditionalConversion",
+        "position": 2200,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "states": [
+          {
+            "name": "More digits",
+            "input": "AdditionalConversion__More digits"
+          },
+          {
+            "name": "Exact forms",
+            "input": "AdditionalConversion__Exact forms"
+          }
+        ]
+      },
+      {
+        "title": "Comparison as speed",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ 2.4 × speed of light in diamond ( ≈ 1.24 × 10^8 m/s )"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsSpeed",
+        "position": 2210.001,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Interpretations",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "speed"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "Interpretation",
+        "position": 2260,
+        "expressiontypes": {
+          "name": "Default"
+        },
+        "states": [
+          {
+            "name": "More",
+            "input": "Interpretation__More"
+          }
+        ]
+      },
+      {
+        "title": "Basic unit dimensions",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "[length] [time]^(-1)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "BasicUnitDimensions",
+        "position": 2270,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Corresponding quantities",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Time to travel 1 meter from t = d/v:\n | 3.3 ns (nanoseconds)"
+          },
+          {
+            "title": "",
+            "plaintext": "Time to travel 1 kilometer from t = d/v:\n | 3.3 μs (microseconds)"
+          },
+          {
+            "title": "",
+            "plaintext": "Slowness from s = 1/v:\n | 3.3 × 10^-9 s/m (seconds per meter)"
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "Unit",
+        "id": "CorrespondingQuantity",
+        "position": 2280,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      }
+    ],
+    "timing": 1.046,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

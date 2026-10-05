@@ -1,0 +1,32 @@
+2026-10-05 22:56:59,045 [INFO] main: Запуск программы, запросов: 15
+2026-10-05 22:56:59,045 [INFO] wolfram_client: Запрос «integrate x^2 sin^3 x dx» (попытка 1 из 3)
+2026-10-05 22:57:03,437 [INFO] wolfram_client: Ответ получен: success=True, блоков=4
+2026-10-05 22:57:04,448 [INFO] wolfram_client: Запрос «population of Russia 2024» (попытка 1 из 3)
+2026-10-05 22:57:07,867 [INFO] wolfram_client: Ответ получен: success=True, блоков=8
+2026-10-05 22:57:08,872 [INFO] wolfram_client: Запрос «molar mass of H2SO4» (попытка 1 из 3)
+2026-10-05 22:57:10,337 [INFO] wolfram_client: Ответ получен: success=True, блоков=5
+2026-10-05 22:57:11,340 [INFO] wolfram_client: Запрос «kinetic energy of 5kg object at 10m/s» (попытка 1 из 3)
+2026-10-05 22:57:12,982 [INFO] wolfram_client: Ответ получен: success=True, блоков=3
+2026-10-05 22:57:13,987 [INFO] wolfram_client: Запрос «distance between Moscow and Saint Petersburg» (попытка 1 из 3)
+2026-10-05 22:57:15,612 [INFO] wolfram_client: Ответ получен: success=True, блоков=5
+2026-10-05 22:57:16,619 [INFO] wolfram_client: Запрос «100 USD to RUB» (попытка 1 из 3)
+2026-10-05 22:57:18,486 [INFO] wolfram_client: Ответ получен: success=True, блоков=5
+2026-10-05 22:57:19,497 [INFO] wolfram_client: Запрос «current time in Kazan» (попытка 1 из 3)
+2026-10-05 22:57:20,666 [INFO] wolfram_client: Ответ получен: success=True, блоков=6
+2026-10-05 22:57:21,673 [INFO] wolfram_client: Запрос «distance to Mars» (попытка 1 из 3)
+2026-10-05 22:57:24,386 [INFO] wolfram_client: Ответ получен: success=True, блоков=7
+2026-10-05 22:57:25,393 [INFO] wolfram_client: Запрос «body mass index 180cm 75kg» (попытка 1 из 3)
+2026-10-05 22:57:28,552 [INFO] wolfram_client: Ответ получен: success=True, блоков=7
+2026-10-05 22:57:29,556 [INFO] wolfram_client: Запрос «translate hello to Russian» (попытка 1 из 3)
+2026-10-05 22:57:30,265 [INFO] wolfram_client: Ответ получен: success=True, блоков=2
+2026-10-05 22:57:31,269 [INFO] wolfram_client: Запрос «solve x^2 - 5x + 6 = 0» (попытка 1 из 3)
+2026-10-05 22:57:32,222 [INFO] wolfram_client: Ответ получен: success=True, блоков=6
+2026-10-05 22:57:33,230 [INFO] wolfram_client: Запрос «boiling point of ethanol» (попытка 1 из 3)
+2026-10-05 22:57:34,700 [INFO] wolfram_client: Ответ получен: success=True, блоков=6
+2026-10-05 22:57:35,707 [INFO] wolfram_client: Запрос «calories in 100g banana» (попытка 1 из 3)
+2026-10-05 22:57:37,500 [INFO] wolfram_client: Ответ получен: success=True, блоков=10
+2026-10-05 22:57:38,508 [INFO] wolfram_client: Запрос «height of Mount Elbrus» (попытка 1 из 3)
+2026-10-05 22:57:40,806 [INFO] wolfram_client: Ответ получен: success=True, блоков=5
+2026-10-05 22:57:41,809 [INFO] wolfram_client: Запрос «speed of light in km/h» (попытка 1 из 3)
+2026-10-05 22:57:43,193 [INFO] wolfram_client: Ответ получен: success=True, блоков=7
+2026-10-05 22:57:44,205 [INFO] main: Завершено: успешно 15 из 15

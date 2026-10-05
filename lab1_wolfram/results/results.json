@@ -1,0 +1,233 @@
+[
+  {
+    "number": 1,
+    "category": "Математический расчет",
+    "query": "integrate x^2 sin^3 x dx",
+    "success": true,
+    "numpods": 4,
+    "interpretation": "",
+    "result": "integral x^2 sin^3(x) dx = 1/108 (-81 (x^2 - 2) cos(x) + (9 x^2 - 2) cos(3 x) - 6 x (sin(3 x) - 27 sin(x))) + constant",
+    "result_title": "Indefinite integral",
+    "extra": {
+      "Alternate forms of the integral": "1/108 ((162 - 81 x^2) cos(x) + (9 x^2 - 2) cos(3 x) + 162 x sin(x) - 6 x sin(3 x)) + constant\n1/108 (9 x^2 cos(3 x) - 81 (x^2 - 2) cos(x) + 162 x sin(x) - 6 x sin(3 x) - 2 cos(3 x)) + constant\n(3/2 - (3 x^2)/4) cos(x) + (x^2/12 - 1/54) cos(3 x) + x ((3 sin(x))/2 - 1/18 sin(3 x)) + constant",
+      "Series expansion of the integral at x = 0": "40/27 + x^6/6 - x^8/16 + O(x^9)\n(Taylor series)"
+    },
+    "raw_file": "raw\\01_integrate_x_2_sin_3_x_dx.json"
+  },
+  {
+    "number": 2,
+    "category": "Фактологический запрос",
+    "query": "population of Russia 2024",
+    "success": true,
+    "numpods": 8,
+    "interpretation": "Russia | population | 2024",
+    "result": "145 million people (2023 projection) (world rank: 9th) (2024 estimate)",
+    "result_title": "Result",
+    "extra": {
+      "Demographics": "population | 145 million people (2023 projection) (world rank: 9th) (2024 estimate)\npopulation density | 8.84 people/km^2 (people per square kilometer) (world rank: 222nd) (2024 estimate)",
+      "Largest cities": "city | population\nMoscow, Central | 13.01 million people\nSaint Petersburg, Admiralteysky | 5.602 million people\nNovosibirsk | 1.634 million people\nYekaterinburg | 1.344 million people\nNizhny Novgorod | 1.213 million people\n(2006, 2010, 2015, 2016, 2017, 2018, 2021, 2023, and 2024 estimates)",
+      "Comparisons": "≈ ( 0.019 ≈ 1/54 ) × world population ( 7.795 billion people )\n≈ 0.69 × current population of Brazil ( 209.3 million people )\n≈ 1.4 × current population of Philippines ( 104.9 million people )"
+    },
+    "raw_file": "raw\\02_population_of_russia_2024.json"
+  },
+  {
+    "number": 3,
+    "category": "Химический расчет",
+    "query": "molar mass of H2SO4",
+    "success": true,
+    "numpods": 5,
+    "interpretation": "sulfuric acid | molar mass",
+    "result": "98.07 g/mol (grams per mole)",
+    "result_title": "Result",
+    "extra": {
+      "Unit conversion": "0.09807 kg/mol (kilograms per mole)",
+      "Comparisons as molar mass": "≈ ( 0.14 ≈ 1/7 ) × molar mass of fullerene ( 720.642 g/mol )\n≈ 0.51 × molar mass of caffeine ( 194.191 g/mol )\n≈ 1.7 × molar mass of sodium chloride ( 58.443 g/mol )",
+      "Corresponding quantities": "Mass of a molecule m from m = M/N_A:\n | 1.6 × 10^-22 grams\n | 1.6 × 10^-25 kg (kilograms)\n | 98 u (unified atomic mass units)\n | 98 Da (daltons)\nRelative molecular mass M_r from M_r = M_u/M:\n | 98"
+    },
+    "raw_file": "raw\\03_molar_mass_of_h2so4.json"
+  },
+  {
+    "number": 4,
+    "category": "Физический расчет",
+    "query": "kinetic energy of 5kg object at 10m/s",
+    "success": true,
+    "numpods": 3,
+    "interpretation": "kinetic energy | \nmass | 5 kg (kilograms)\nvelocity | 10 m/s (meters per second)",
+    "result": "kinetic energy | 250 J (joules)\n= 0.06944 W h (watt hours)\n= 1.56 × 10^12 GeV (gigaelectronvolts)",
+    "result_title": "Result",
+    "extra": {
+      "Equation": "K = (m v^2)/2 | \nK | kinetic energy\nm | mass\nv | velocity\n(the energy of an object due to its motion)"
+    },
+    "raw_file": "raw\\04_kinetic_energy_of_5kg_object_at_10m_s.json"
+  },
+  {
+    "number": 5,
+    "category": "Географический",
+    "query": "distance between Moscow and Saint Petersburg",
+    "success": true,
+    "numpods": 5,
+    "interpretation": "distance | from | Moscow, Tsentralniy, Russia\nto | Saint Petersburg, Admiralteyskiy, Russia",
+    "result": "636.2 km (kilometers)",
+    "result_title": "Result",
+    "extra": {
+      "Unit conversions": "395.3 miles\n636.2 km (kilometers)\n636161 meters\n6.362 × 10^7 cm (centimeters)\n343.5 nmi (nautical miles)",
+      "Direct travel times": "aircraft (885 km/h) | 43 minutes\nsound | 31 minutes\nlight in fiber | 3 ms (milliseconds)\nlight in vacuum | 2 ms (milliseconds)\n(assuming constant-speed great-circle path)"
+    },
+    "raw_file": "raw\\05_distance_between_moscow_and_saint_peters.json"
+  },
+  {
+    "number": 6,
+    "category": "Финансовый",
+    "query": "100 USD to RUB",
+    "success": true,
+    "numpods": 5,
+    "interpretation": "convert $100 (US dollars) to Russian rubles",
+    "result": "8334.58 ₽ (Russian rubles) (04/10/2026)",
+    "result_title": "Result",
+    "extra": {
+      "Local currency conversion for $100 (US dollars)": "€89.25 (euros) (05/10/2026)",
+      "Exchange history for $100 (US dollars)": "1-year minimum | 7084.76 ₽ (28/05/2026 | 4 months ago)\n1-year maximum | 8729.72 ₽ (02/09/2026 | 1 month ago)\n1-year average | 7874.89 ₽ (annualized volatility: 13%)",
+      "Additional currency conversions for $100 (US dollars)": "CNY | ￥670.46 (Chinese yuan)\nJPY | ¥15823 (Japanese yen)\nGBP | £75.62 (British pounds)\nCAD | C$142.53 (Canadian dollars)\nMXN | $1814.96 (Mexican pesos)\nGTQ | Q762.59 (Guatemala quetzales)\nCRC | ₡45723.78 (Costa Rican colones)\nHNL | L2678.97 (Honduran lempiras)\nJMD | J$15797.36 (Jamaican dollars)\nXAU | 0.02 oz (gold ounces)\nXAG | 1.65 oz (silver ounces)"
+    },
+    "raw_file": "raw\\06_100_usd_to_rub.json"
+  },
+  {
+    "number": 7,
+    "category": "Временной",
+    "query": "current time in Kazan",
+    "success": true,
+    "numpods": 6,
+    "interpretation": "current time in Kazan, Kazan', Russia",
+    "result": "10:57:20 pm MSK | Monday, October 5, 2026",
+    "result_title": "Result",
+    "extra": {
+      "Time offset from EEST": "0 hours",
+      "Clocks": "Moscow\n\n10:57:20 pm MSK\nMonday, October 5 Vilnius, Lithuania\n\n10:57:20 pm EEST\nMonday, October 5",
+      "Time until midnight (MSK)": "1 hour 2 minutes 40 seconds"
+    },
+    "raw_file": "raw\\07_current_time_in_kazan.json"
+  },
+  {
+    "number": 8,
+    "category": "Астрономический",
+    "query": "distance to Mars",
+    "success": true,
+    "numpods": 7,
+    "interpretation": "Mars | distance from Earth",
+    "result": "1.632 au (astronomical units)",
+    "result_title": "Current result",
+    "extra": {
+      "Unit conversions": "2.441 × 10^8 km (kilometers)\n2.441 × 10^11 meters\n151.7 million miles",
+      "Comparisons as distance": "≈ ( 0.018 ≈ 1/54 ) × smallest distance from the Sun to the heliosheath ( 79 to 100 au )\n≈ 1.6 × mean Earth-Sun distance ( 1.0000010178 au )",
+      "Corresponding quantities": "Light travel time t in vacuum from t = x/c:\n | 14 minutes\nLight travel time t in an optical fiber t = 1.48x/c:\n | 20 minutes\nSolar radiation pressure from P = L_☉/(c4πr^2):\n | 1.7 μPa (micropascals)\n | (assuming solar constant ≈ 1.36 kW/m^2)"
+    },
+    "raw_file": "raw\\08_distance_to_mars.json"
+  },
+  {
+    "number": 9,
+    "category": "Медицинский",
+    "query": "body mass index 180cm 75kg",
+    "success": true,
+    "numpods": 7,
+    "interpretation": "body mass index | \nheight | 180 cm (centimeters)\nbody weight | 75 kg (kilograms)",
+    "result": "body mass index | 23.15",
+    "result_title": "Result",
+    "extra": {
+      "Equation": "BMI = W/H^2 | \nBMI | body mass index\nH | height\nW | body weight\n(based on Quetelet's formula)",
+      "International weight classification": "normal range (18.5-25)",
+      "BMI prime": "0.926"
+    },
+    "raw_file": "raw\\09_body_mass_index_180cm_75kg.json"
+  },
+  {
+    "number": 10,
+    "category": "Лингвистический",
+    "query": "translate hello to Russian",
+    "success": true,
+    "numpods": 2,
+    "interpretation": "translate | hello | to Russian",
+    "result": "(noun) привет | приветствие\nЗдравствуйте",
+    "result_title": "Results",
+    "extra": {},
+    "raw_file": "raw\\10_translate_hello_to_russian.json"
+  },
+  {
+    "number": 11,
+    "category": "Алгебра (по выбору)",
+    "query": "solve x^2 - 5x + 6 = 0",
+    "success": true,
+    "numpods": 6,
+    "interpretation": "solve x^2 - 5 x + 6 = 0",
+    "result": "x = 2\nx = 3",
+    "result_title": "Results",
+    "extra": {
+      "Sum of roots": "5",
+      "Product of roots": "6"
+    },
+    "raw_file": "raw\\11_solve_x_2_5x_6_0.json"
+  },
+  {
+    "number": 12,
+    "category": "Химия (по выбору)",
+    "query": "boiling point of ethanol",
+    "success": true,
+    "numpods": 6,
+    "interpretation": "ethanol | boiling point",
+    "result": "78 °C (degrees Celsius)",
+    "result_title": "Result",
+    "extra": {
+      "Unit conversions": "351.1 K (kelvins)\n172.4 °F (degrees Fahrenheit)\n632.1 °R (degrees Rankine)\n62.4 °Ré (degrees Réaumur)\n48.45 °Rø (degrees Rømer)",
+      "Comparisons as temperature": "49 °C below hottest temperature of a Concorde nose tip (127 °C)\n21.98 °C below temperature at which water boils at standard pressure (99.9839 °C)\n58 °C above conventional US room temperature (68 °F)",
+      "Corresponding quantities": "Thermodynamic energy E from E = kT:\n | 30 meV (millielectronvolts)\nBlackbody energy flux Φ from Φ = σT^4:\n | 862 W/m^2 (watts per square meter)\nApproximate luminous exitance from a planar blackbody radiator perpendicular to its surface:\n | 3 × 10^-17 lx (lux)"
+    },
+    "raw_file": "raw\\12_boiling_point_of_ethanol.json"
+  },
+  {
+    "number": 13,
+    "category": "Питание (по выбору)",
+    "query": "calories in 100g banana",
+    "success": true,
+    "numpods": 10,
+    "interpretation": "banana | amount | 100 grams | total calories",
+    "result": "89 Cal (dietary Calories)",
+    "result_title": "Result",
+    "extra": {
+      "Unit conversions": "370 kJ (kilojoules)\n0.37 MJ (megajoules)\n370000 J (joules)\n3.7 × 10^12 ergs\n (unit officially deprecated)\n89 kcal_th (thermochemical kilocalories)\n (unit officially deprecated)",
+      "Comparison to reference daily intake": "| daily amount | % daily value\nRDA | 2000 Cal/d (dietary Calories per day) | 4%\n(RDA: recommended daily allowance)",
+      "Ranking among common foods": "fraction with higher value | 57.9%\nfraction with lower value | 42.1%\nfraction with zero value | 0%\ndistribution | \n(distribution is based on nutrient values in standard servings of 7500 common foods)"
+    },
+    "raw_file": "raw\\13_calories_in_100g_banana.json"
+  },
+  {
+    "number": 14,
+    "category": "География (по выбору)",
+    "query": "height of Mount Elbrus",
+    "success": true,
+    "numpods": 5,
+    "interpretation": "Mount Elbrus | elevation",
+    "result": "5642 meters",
+    "result_title": "Result",
+    "extra": {
+      "Local elevation": "5642 meters",
+      "Unit conversions": "6170 yards\n3.506 miles\n5.642 km (kilometers)\n564200 cm (centimeters)",
+      "Standard Atmosphere at 5642 meters altitude": "pressure | 500 mbar (millibars)\ntemperature | -22 °C (degrees Celsius)\ndensity | 0.69 kg/m^3 (kilograms per cubic meter)\nsound speed | 1100 km/h (kilometers per hour)\n(1976 Standard Atmosphere; values for actual atmosphere vary)"
+    },
+    "raw_file": "raw\\14_height_of_mount_elbrus.json"
+  },
+  {
+    "number": 15,
+    "category": "Физика (по выбору)",
+    "query": "speed of light in km/h",
+    "success": true,
+    "numpods": 7,
+    "interpretation": "convert 1 c (speed of light) to kilometers per hour",
+    "result": "1.079 × 10^9 km/h (kilometers per hour)",
+    "result_title": "Result",
+    "extra": {
+      "Additional conversions": "6.706 × 10^8 mph (miles per hour)\n299792 km/s (kilometers per second)\n2.998 × 10^8 m/s (meters per second)\n186282 mi/s (miles per second)",
+      "Comparison as speed": "≈ 2.4 × speed of light in diamond ( ≈ 1.24 × 10^8 m/s )",
+      "Interpretations": "speed"
+    },
+    "raw_file": "raw\\15_speed_of_light_in_km_h.json"
+  }
+]

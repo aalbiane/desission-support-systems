@@ -1,0 +1,194 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 6,
+    "datatypes": "Chemical,GasMark",
+    "parsetiming": 0.269,
+    "parsetimedout": false,
+    "id": "OVww16X55q8=6:eJxTTMoPSmNkYGAoZgESHvk5KWlMIJ4ekHBOzEkuzUksSQ1ILCpOTXDOzytJzStJgAsjWC6JJYlpzCB9bEDCNa8ks6QymANkREZqbmZyYk4wO0i8JCMxLz8njQFmnU9mcQlEG0htQFF+QWoRUKMAkka4IA9Q0Ck/MyczLz0gPzOvBNUUACsDNgg=",
+    "kernelId": "12",
+    "processId": 24373,
+    "version": "2.6",
+    "inputstring": "boiling point of ethanol",
+    "sbsallowed": false,
+    "sources": [
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html",
+        "text": "Chemical data"
+      },
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/GasMarkSourceInformationNotes.html",
+        "text": "Gas mark"
+      }
+    ],
+    "parentId": "5604b886-4cf5-42a4-a0dc-a8ed85ba4024",
+    "requestId": "5604b886-4cf5-42a4-a0dc-a8ed85ba4024",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "ethanol | boiling point"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "ChemicalData"
+            ],
+            "plaintext": "78 °C (degrees Celsius)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Data",
+        "id": "Result",
+        "position": 10,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Unit conversions",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "351.1 K (kelvins)"
+          },
+          {
+            "title": "",
+            "plaintext": "172.4 °F (degrees Fahrenheit)"
+          },
+          {
+            "title": "",
+            "plaintext": "632.1 °R (degrees Rankine)"
+          },
+          {
+            "title": "",
+            "plaintext": "62.4 °Ré (degrees Réaumur)"
+          },
+          {
+            "title": "",
+            "plaintext": "48.45 °Rø (degrees Rømer)"
+          }
+        ],
+        "numsubpods": 5,
+        "error": false,
+        "scanner": "Unit",
+        "id": "UnitConversion",
+        "position": 2200,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      },
+      {
+        "title": "Comparisons as temperature",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "49 °C below hottest temperature of a Concorde nose tip (127 °C)"
+          },
+          {
+            "title": "",
+            "plaintext": "21.98 °C below temperature at which water boils at standard pressure (99.9839 °C)"
+          },
+          {
+            "title": "",
+            "plaintext": "58 °C above conventional US room temperature (68 °F)"
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsBoilingTemperature",
+        "position": 2210.001,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Corresponding quantities",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Thermodynamic energy E from E = kT:\n | 30 meV (millielectronvolts)"
+          },
+          {
+            "title": "",
+            "plaintext": "Blackbody energy flux Φ from Φ = σT^4:\n | 862 W/m^2 (watts per square meter)"
+          },
+          {
+            "title": "",
+            "plaintext": "Approximate luminous exitance from a planar blackbody radiator perpendicular to its surface:\n | 3 × 10^-17 lx (lux)"
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "Unit",
+        "id": "CorrespondingQuantity",
+        "position": 2280,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Nearest corresponding gas marks",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "GasMark"
+            ],
+            "plaintext": " | temperature | usage\nthermostat 3 | 90 °C | France\n(actual measurements may vary)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "UnitInformation",
+        "id": "GasMark:QuantityData",
+        "position": 3000,
+        "expressiontypes": {
+          "name": "Grid"
+        },
+        "states": [
+          {
+            "name": "Show non-metric",
+            "input": "GasMark:QuantityData__Show non-metric"
+          }
+        ]
+      }
+    ],
+    "timing": 1.244,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

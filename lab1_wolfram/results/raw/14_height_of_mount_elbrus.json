@@ -1,0 +1,292 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 5,
+    "datatypes": "Mountain,Elevation,AtmosphericLayer",
+    "parsetiming": 0.381,
+    "parsetimedout": false,
+    "id": "PT3uFBhuw4k=6:eJxTTMoPSmNkYGAoZgESHvk5KWlMIJ4ekHBOzEkuzUksSQ1ILCpOTXDOzytJzStJgAsjWC6JJYlpzCB9bEDCNa8ks6QymAPI9M0vzStJzMwL5oZxXHOSikqL0xhgVvpkFpdAtILUBxTlF6QWATULIGmGC3KCDM9JLUssyczPQzUCALKNNwE=",
+    "kernelId": "29",
+    "processId": 49700,
+    "version": "2.6",
+    "inputstring": "height of Mount Elbrus",
+    "sbsallowed": false,
+    "sources": [
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/MountainDataSourceInformationNotes.html",
+        "text": "Mountain data"
+      },
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/ElevationDataSourceInformationNotes.html",
+        "text": "Elevation data"
+      },
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/AtmosphericLayerSourceInformationNotes.html",
+        "text": "Atmospheric layer"
+      }
+    ],
+    "parentId": "9597c39c-3bcd-45c8-a3ac-e36369724cf3",
+    "requestId": "9597c39c-3bcd-45c8-a3ac-e36369724cf3",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Mount Elbrus | elevation"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "MountainData"
+            ],
+            "plaintext": "5642 meters"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Data",
+        "id": "Result",
+        "position": 10,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        },
+        "states": [
+          {
+            "name": "Show non-metric",
+            "input": "Result__Show non-metric"
+          }
+        ]
+      },
+      {
+        "title": "Local elevation",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "ElevationData",
+              "MountainData"
+            ],
+            "datasources": [
+              "PeakwareWorldMountainEncyclopedia",
+              "TheWikimediaFoundationIncWikipedia"
+            ],
+            "plaintext": "5642 meters"
+          },
+          {
+            "title": "Elevation map",
+            "microsources": [
+              "ElevationData",
+              "MountainData"
+            ],
+            "datasources": [
+              "PeakwareWorldMountainEncyclopedia",
+              "TheWikimediaFoundationIncWikipedia"
+            ],
+            "plaintext": "   "
+          },
+          {
+            "title": "East-west profile",
+            "microsources": [
+              "ElevationData",
+              "MountainData"
+            ],
+            "datasources": [
+              "PeakwareWorldMountainEncyclopedia",
+              "TheWikimediaFoundationIncWikipedia"
+            ],
+            "plaintext": ""
+          },
+          {
+            "title": "North-south profile",
+            "microsources": [
+              "ElevationData",
+              "MountainData"
+            ],
+            "datasources": [
+              "PeakwareWorldMountainEncyclopedia",
+              "TheWikimediaFoundationIncWikipedia"
+            ],
+            "plaintext": ""
+          }
+        ],
+        "numsubpods": 4,
+        "error": false,
+        "scanner": "Data",
+        "id": "ElevationProfile:MountainData",
+        "position": 355,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "states": [
+          {
+            "name": "Show coordinates",
+            "input": "ElevationProfile:MountainData__Show coordinates"
+          },
+          {
+            "name": "Show non-metric",
+            "input": "ElevationProfile:MountainData__Show non-metric"
+          },
+          {
+            "name": "Hide topography",
+            "input": "ElevationProfile:MountainData__Hide topography"
+          }
+        ]
+      },
+      {
+        "title": "Unit conversions",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "6170 yards"
+          },
+          {
+            "title": "",
+            "plaintext": "3.506 miles"
+          },
+          {
+            "title": "",
+            "plaintext": "5.642 km (kilometers)"
+          },
+          {
+            "title": "",
+            "plaintext": "564200 cm (centimeters)"
+          }
+        ],
+        "numsubpods": 4,
+        "error": false,
+        "scanner": "Unit",
+        "id": "UnitConversion",
+        "position": 2200,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      },
+      {
+        "title": "Standard Atmosphere at 5642 meters altitude",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "AtmosphericLayer"
+            ],
+            "datasources": [
+              "TheOrderOfThings",
+              "TheWikimediaFoundationIncWikipedia"
+            ],
+            "plaintext": "pressure | 500 mbar (millibars)\ntemperature | -22 °C (degrees Celsius)\ndensity | 0.69 kg/m^3 (kilograms per cubic meter)\nsound speed | 1100 km/h (kilometers per hour)\n(1976 Standard Atmosphere; values for actual atmosphere vary)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "AtmosphericProperties",
+        "id": "AtmosphereAtAltitude",
+        "position": 2250,
+        "expressiontypes": {
+          "name": "Grid"
+        },
+        "states": [
+          {
+            "name": "Show non-metric",
+            "input": "AtmosphereAtAltitude__Show non-metric"
+          },
+          {
+            "name": "More",
+            "input": "AtmosphereAtAltitude__More"
+          }
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "type": "MultiClash",
+        "word": "",
+        "template": "Assuming ${word1} is referring to ${desc1}. Use as ${desc2} instead. Use \"${word3}\" as ${desc3}.",
+        "count": 3,
+        "values": [
+          {
+            "name": "Mountain",
+            "word": "Mount Elbrus",
+            "desc": "a mountain",
+            "input": "%2AMC.Mount%20Elbrus-_%2AMountain-"
+          },
+          {
+            "name": "Volcano",
+            "word": "Mount Elbrus",
+            "desc": "a volcano",
+            "input": "%2AMC.Mount%20Elbrus-_%2AVolcano-"
+          },
+          {
+            "name": "City",
+            "word": "Elbrus",
+            "desc": "a city",
+            "input": "%2AMC.Mount%20Elbrus-_%2ACity-"
+          }
+        ]
+      },
+      {
+        "type": "Clash",
+        "word": "height",
+        "template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+        "count": 3,
+        "values": [
+          {
+            "name": "MountainProperty",
+            "desc": " referring to mountains",
+            "input": "%2AC.height-_%2AMountainProperty-"
+          },
+          {
+            "name": "ElevationWord",
+            "desc": " referring to elevation information",
+            "input": "%2AC.height-_%2AElevationWord-"
+          },
+          {
+            "name": "VolcanoProperty",
+            "desc": " referring to volcanoes",
+            "input": "%2AC.height-_%2AVolcanoProperty-"
+          }
+        ]
+      }
+    ],
+    "timing": 2.002,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

@@ -1,0 +1,133 @@
+Результаты запросов к Wolfram Alpha API
+Дата выполнения: 05.10.2026 22:57:44
+Успешно: 15 из 15
+======================================================================
+Запрос 1. Математический расчет
+Текст запроса : integrate x^2 sin^3 x dx
+Результат (Indefinite integral):
+    integral x^2 sin^3(x) dx = 1/108 (-81 (x^2 - 2) cos(x) + (9 x^2 - 2) cos(3 x) - 6 x (sin(3 x) - 27 sin(x))) + constant
+  - Alternate forms of the integral: 1/108 ((162 - 81 x^2) cos(x) + (9 x^2 - 2) cos(3 x) + 162 x sin(x) - 6 x sin(3 x)) + constant; 1/108 (9 x^2 cos(3 x) - 81 (x^2 - 2) cos(x) + 162 x sin(x) - 6 x sin(3 x) - 2 cos(3 x)) + constant; (3/2 - (3 x^2)/4) cos(x) + (x^2/12 - 1/54) cos(3 x) + x ((3 sin(x))/2 - 1/18 sin(3 x)) + constant
+  - Series expansion of the integral at x = 0: 40/27 + x^6/6 - x^8/16 + O(x^9); (Taylor series)
+======================================================================
+Запрос 2. Фактологический запрос
+Текст запроса : population of Russia 2024
+Интерпретация : Russia | population | 2024
+Результат (Result):
+    145 million people (2023 projection) (world rank: 9th) (2024 estimate)
+  - Demographics: population | 145 million people (2023 projection) (world rank: 9th) (2024 estimate); population density | 8.84 people/km^2 (people per square kilometer) (world rank: 222nd) (2024 estimate)
+  - Largest cities: city | population; Moscow, Central | 13.01 million people; Saint Petersburg, Admiralteysky | 5.602 million people
+  - Comparisons: ≈ ( 0.019 ≈ 1/54 ) × world population ( 7.795 billion people ); ≈ 0.69 × current population of Brazil ( 209.3 million people ); ≈ 1.4 × current population of Philippines ( 104.9 million people )
+======================================================================
+Запрос 3. Химический расчет
+Текст запроса : molar mass of H2SO4
+Интерпретация : sulfuric acid | molar mass
+Результат (Result):
+    98.07 g/mol (grams per mole)
+  - Unit conversion: 0.09807 kg/mol (kilograms per mole)
+  - Comparisons as molar mass: ≈ ( 0.14 ≈ 1/7 ) × molar mass of fullerene ( 720.642 g/mol ); ≈ 0.51 × molar mass of caffeine ( 194.191 g/mol ); ≈ 1.7 × molar mass of sodium chloride ( 58.443 g/mol )
+  - Corresponding quantities: Mass of a molecule m from m = M/N_A:;  | 1.6 × 10^-22 grams;  | 1.6 × 10^-25 kg (kilograms)
+======================================================================
+Запрос 4. Физический расчет
+Текст запроса : kinetic energy of 5kg object at 10m/s
+Интерпретация : kinetic energy | ; mass | 5 kg (kilograms); velocity | 10 m/s (meters per second)
+Результат (Result):
+    kinetic energy | 250 J (joules)
+    = 0.06944 W h (watt hours)
+    = 1.56 × 10^12 GeV (gigaelectronvolts)
+  - Equation: K = (m v^2)/2 | ; K | kinetic energy; m | mass
+======================================================================
+Запрос 5. Географический
+Текст запроса : distance between Moscow and Saint Petersburg
+Интерпретация : distance | from | Moscow, Tsentralniy, Russia; to | Saint Petersburg, Admiralteyskiy, Russia
+Результат (Result):
+    636.2 km (kilometers)
+  - Unit conversions: 395.3 miles; 636.2 km (kilometers); 636161 meters
+  - Direct travel times: aircraft (885 km/h) | 43 minutes; sound | 31 minutes; light in fiber | 3 ms (milliseconds)
+======================================================================
+Запрос 6. Финансовый
+Текст запроса : 100 USD to RUB
+Интерпретация : convert $100 (US dollars) to Russian rubles
+Результат (Result):
+    8334.58 ₽ (Russian rubles) (04/10/2026)
+  - Local currency conversion for $100 (US dollars): €89.25 (euros) (05/10/2026)
+  - Exchange history for $100 (US dollars): 1-year minimum | 7084.76 ₽ (28/05/2026 | 4 months ago); 1-year maximum | 8729.72 ₽ (02/09/2026 | 1 month ago); 1-year average | 7874.89 ₽ (annualized volatility: 13%)
+  - Additional currency conversions for $100 (US dollars): CNY | ￥670.46 (Chinese yuan); JPY | ¥15823 (Japanese yen); GBP | £75.62 (British pounds)
+======================================================================
+Запрос 7. Временной
+Текст запроса : current time in Kazan
+Интерпретация : current time in Kazan, Kazan', Russia
+Результат (Result):
+    10:57:20 pm MSK | Monday, October 5, 2026
+  - Time offset from EEST: 0 hours
+  - Clocks: Moscow; ; 10:57:20 pm MSK
+  - Time until midnight (MSK): 1 hour 2 minutes 40 seconds
+======================================================================
+Запрос 8. Астрономический
+Текст запроса : distance to Mars
+Интерпретация : Mars | distance from Earth
+Результат (Current result):
+    1.632 au (astronomical units)
+  - Unit conversions: 2.441 × 10^8 km (kilometers); 2.441 × 10^11 meters; 151.7 million miles
+  - Comparisons as distance: ≈ ( 0.018 ≈ 1/54 ) × smallest distance from the Sun to the heliosheath ( 79 to 100 au ); ≈ 1.6 × mean Earth-Sun distance ( 1.0000010178 au )
+  - Corresponding quantities: Light travel time t in vacuum from t = x/c:;  | 14 minutes; Light travel time t in an optical fiber t = 1.48x/c:
+======================================================================
+Запрос 9. Медицинский
+Текст запроса : body mass index 180cm 75kg
+Интерпретация : body mass index | ; height | 180 cm (centimeters); body weight | 75 kg (kilograms)
+Результат (Result):
+    body mass index | 23.15
+  - Equation: BMI = W/H^2 | ; BMI | body mass index; H | height
+  - International weight classification: normal range (18.5-25)
+  - BMI prime: 0.926
+======================================================================
+Запрос 10. Лингвистический
+Текст запроса : translate hello to Russian
+Интерпретация : translate | hello | to Russian
+Результат (Results):
+    (noun) привет | приветствие
+    Здравствуйте
+======================================================================
+Запрос 11. Алгебра (по выбору)
+Текст запроса : solve x^2 - 5x + 6 = 0
+Интерпретация : solve x^2 - 5 x + 6 = 0
+Результат (Results):
+    x = 2
+    x = 3
+  - Sum of roots: 5
+  - Product of roots: 6
+======================================================================
+Запрос 12. Химия (по выбору)
+Текст запроса : boiling point of ethanol
+Интерпретация : ethanol | boiling point
+Результат (Result):
+    78 °C (degrees Celsius)
+  - Unit conversions: 351.1 K (kelvins); 172.4 °F (degrees Fahrenheit); 632.1 °R (degrees Rankine)
+  - Comparisons as temperature: 49 °C below hottest temperature of a Concorde nose tip (127 °C); 21.98 °C below temperature at which water boils at standard pressure (99.9839 °C); 58 °C above conventional US room temperature (68 °F)
+  - Corresponding quantities: Thermodynamic energy E from E = kT:;  | 30 meV (millielectronvolts); Blackbody energy flux Φ from Φ = σT^4:
+======================================================================
+Запрос 13. Питание (по выбору)
+Текст запроса : calories in 100g banana
+Интерпретация : banana | amount | 100 grams | total calories
+Результат (Result):
+    89 Cal (dietary Calories)
+  - Unit conversions: 370 kJ (kilojoules); 0.37 MJ (megajoules); 370000 J (joules)
+  - Comparison to reference daily intake: | daily amount | % daily value; RDA | 2000 Cal/d (dietary Calories per day) | 4%; (RDA: recommended daily allowance)
+  - Ranking among common foods: fraction with higher value | 57.9%; fraction with lower value | 42.1%; fraction with zero value | 0%
+======================================================================
+Запрос 14. География (по выбору)
+Текст запроса : height of Mount Elbrus
+Интерпретация : Mount Elbrus | elevation
+Результат (Result):
+    5642 meters
+  - Local elevation: 5642 meters
+  - Unit conversions: 6170 yards; 3.506 miles; 5.642 km (kilometers)
+  - Standard Atmosphere at 5642 meters altitude: pressure | 500 mbar (millibars); temperature | -22 °C (degrees Celsius); density | 0.69 kg/m^3 (kilograms per cubic meter)
+======================================================================
+Запрос 15. Физика (по выбору)
+Текст запроса : speed of light in km/h
+Интерпретация : convert 1 c (speed of light) to kilometers per hour
+Результат (Result):
+    1.079 × 10^9 km/h (kilometers per hour)
+  - Additional conversions: 6.706 × 10^8 mph (miles per hour); 299792 km/s (kilometers per second); 2.998 × 10^8 m/s (meters per second)
+  - Comparison as speed: ≈ 2.4 × speed of light in diamond ( ≈ 1.24 × 10^8 m/s )
+  - Interpretations: speed
