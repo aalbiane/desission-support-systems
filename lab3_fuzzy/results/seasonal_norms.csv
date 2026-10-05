@@ -1,0 +1,13 @@
+﻿city,season,temperature_mean,temperature_std,temperature_min,temperature_max,humidity_mean,humidity_std,wind_speed_mean,wind_speed_std
+Kazan,winter,-8.64,6.41,-30.5,2.0,84.92,6.44,4.59,1.92
+Kazan,spring,5.97,8.22,-20.8,25.7,71.72,13.56,3.91,1.66
+Kazan,summer,19.65,3.61,10.3,28.7,67.95,9.45,3.15,1.19
+Kazan,autumn,6.72,6.93,-10.3,21.4,79.58,10.11,3.8,1.66
+Moscow,winter,-5.91,5.79,-27.5,4.6,85.61,6.86,4.02,1.82
+Moscow,spring,6.56,7.28,-11.6,26.5,68.87,13.5,3.39,1.44
+Moscow,summer,19.21,3.28,9.3,29.0,66.91,10.78,2.92,1.06
+Moscow,autumn,6.93,6.52,-10.6,22.0,80.0,9.84,3.63,1.62
+Saint Petersburg,winter,-4.94,5.71,-29.6,5.8,87.22,5.16,3.94,1.56
+Saint Petersburg,spring,5.55,5.97,-12.4,21.3,71.32,12.56,3.56,1.36
+Saint Petersburg,summer,17.88,3.1,7.7,26.6,72.39,9.69,3.15,1.13
+Saint Petersburg,autumn,7.07,6.24,-9.1,20.1,83.69,7.85,3.86,1.52
